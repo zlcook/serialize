@@ -30,3 +30,33 @@
 *.exe
 *.out
 *.app
+
+wp
+*.so
+*.DS_Store
+
+# build
+build
+build.sh
+_build
+_build.log
+_install
+install_manifest.txt
+# lsp
+.ccls
+.ccls-cache
+.clangd/
+compile_commands.json
+
+gen-*
+
+# cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeFiles/
+Testing/
+target/
