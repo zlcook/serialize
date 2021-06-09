@@ -20,3 +20,5 @@
 # 参考
 * [Boost Serialization](https://www.boost.org/doc/libs/1_76_0/libs/serialization/doc/index.html)
 * [Boost Iostreams](https://www.boost.org/doc/libs/1_76_0/libs/iostreams/doc/index.html)
+
+* 基于yas序列化库实现的案例参考[plato/archive.hpp](https://github.com/zlcook/plato/blob/master/plato/util/archive.hpp)
