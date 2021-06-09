@@ -2,7 +2,7 @@
 利用boost的Serialization库实现序列化和反序列化
 
 # 类UML图
-[!uml](https://github.com/zlcook/serialize/blob/main/doc/serialize_uml.png)
+![uml](https://github.com/zlcook/serialize/blob/main/doc/serialize_uml.png)
 
 * SharedBuffer: 字节数组，序列化化的数据最终存在SharedBuffer中。
 * MemSink： 继承[boost::iostreams::sink](https://www.boost.org/doc/libs/1_76_0/libs/iostreams/doc/index.html)类，覆盖write方法，使用SharedBuffer接收写入的数据。
