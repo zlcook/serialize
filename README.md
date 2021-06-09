@@ -21,4 +21,19 @@
 * [Boost Serialization](https://www.boost.org/doc/libs/1_76_0/libs/serialization/doc/index.html)
 * [Boost Iostreams](https://www.boost.org/doc/libs/1_76_0/libs/iostreams/doc/index.html)
 
-* 基于yas序列化库实现的案例参考[plato/archive.hpp](https://github.com/zlcook/plato/blob/master/plato/util/archive.hpp)
+* 基于[yas](https://github.com/niXman/yas)序列化库实现的案例参考[plato/archive.hpp](https://github.com/zlcook/plato/blob/master/plato/util/archive.hpp)
+
+* 其它序列化库的对比结果: [数据来源](https://github.com/thekvs/cpp-serializers)
+
+|serializer | object's size |  avg. total time|
+|---|---|---|
+|thrift-binary  | 17017 |  1190.22|
+|thrift-compact | 13378 |  3474.32|
+|protobuf |    16116 |  2312.78|
+|boost  | 17470 |  1195.04|
+|msgpack| 13402 |  2560.6|
+|cereal|  17416 |  1052.46|
+|avro |   16384 |  4488.18|
+|yas| 17416  | 302.7|
+|yas-compact | 13321 |  2063.34|
+
