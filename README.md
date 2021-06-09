@@ -1,0 +1,2 @@
+# serialize
+利用boost的Serialization库实现序列化和反序列化
